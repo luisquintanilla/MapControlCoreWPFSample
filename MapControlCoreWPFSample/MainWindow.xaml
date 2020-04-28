@@ -30,18 +30,18 @@
             VerticalAlignment="Top"
             Margin="10"
             Grid.Column="1"
-            FontSize="20"/>
-            <!--Click="GetImageAsync"-->
+            FontSize="20"
+            Click="GetImageAsync"/>
 
         <Controls:MapControl 
-            x:Name="MapControl"
+            x:Name="SatelliteMap"
             Margin="10"
             Style="Aerial"
             Grid.Row="1"
             Grid.Column="0"
             Grid.ColumnSpan="2"
             ZoomLevel="19"
-            Loaded="MapControl_Loaded"/>
+            Loaded="SatelliteMap_Loaded"/>
 
     </Grid>
 </Window>
